@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.logo-text{
+    color: #285375;
+}
+
+.btn{
+    background-color: #285375;
+    color: white;
+    font-weight: bold;
+    padding: 10px 14px;
+}
+
+.btn:hover{
+    background-color: white;
+    border: 2px solid #285375;
+    color: #285375;
+}
+
+main{
+    background-image: url(/img/building.jfif);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover¬;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    margin: 0 5px;
+}
+
+form{
+    display: flex;
+    gap: 9px;
+}
+
+form div{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+input{
+    border: 0;
+    outline: 0;
+    width: 100%;
+}
+
+main div img{
+    height: 20px;
+    color: #285375;
+    padding: 0 10px;
+}
+
+
+
